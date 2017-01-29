@@ -485,7 +485,7 @@ class Window(QWidget):
                 json = None
                 params = urllib.parse.urlencode({
                     # Request parameters
-                    'personGroupId': 'testgroup', #repalce testgroup with the name of your group
+                    'personGroupId': 'testgroup', #Replace testgroup with the name of your group
                     'personId': candidateId,
                 })
 
